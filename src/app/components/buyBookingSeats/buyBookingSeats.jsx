@@ -47,11 +47,11 @@ const BuyBookingSeats = () => {
       <h3>Selecciona tus asientos</h3>
       <p>Para cambiar tu lugar asignado da click en el asiento deseado</p>
       <div className='Seats__Container__options'>
-        <img src='/images/EmptySeat.png' />
+        <img src='/images/emptySeat.png' />
         <p>Libre</p>
-        <img src='/images/SelectedSeat.png' />
+        <img src='/images/selectedSeat.png' />
         <p>Seleccionada</p>
-        <img src='/images/ReservedSeat.png' />
+        <img src='/images/seservedSeat.png' />
         <p>Reservada</p>
       </div>
       {rows.length > 0 ? (
