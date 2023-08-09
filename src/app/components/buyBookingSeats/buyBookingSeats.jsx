@@ -51,7 +51,7 @@ const BuyBookingSeats = () => {
         <p>Libre</p>
         <img src='/images/selectedSeat.png' />
         <p>Seleccionada</p>
-        <img src='/images/seservedSeat.png' />
+        <img src='/images/reservedSeat.png' />
         <p>Reservada</p>
       </div>
       {rows.length > 0 ? (
