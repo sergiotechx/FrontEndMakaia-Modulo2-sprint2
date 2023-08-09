@@ -1,5 +1,5 @@
 import axios from 'axios';
-const Url = 'http://localhost:3001/';
+const Url = 'https://modulo-2-jsonserver-sprint2.onrender.com/';
 
 export async function getGenres(){
     
