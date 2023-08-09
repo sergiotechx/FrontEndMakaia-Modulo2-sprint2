@@ -1,0 +1,24 @@
+.OnScreenCard {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor:pointer;
+   img {
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  border-radius: 5px;
+  .CardInfo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &__Actions{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
+}

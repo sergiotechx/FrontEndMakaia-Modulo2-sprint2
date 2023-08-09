@@ -1,0 +1,147 @@
+.buy2Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+
+    .buy2Seats {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+
+        .Seats__Container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+
+            &__options {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1rem;
+                border-bottom: 1px solid #8F95A0;
+                border-width: 5px;
+                
+
+            }
+
+            .seat {
+                background: #FFB25B !important;
+                border-top-left-radius: 15px !important;
+                border-top-right-radius: 15px !important;
+                height: 40px;
+                width: 40px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .seat:hover {
+                background-color: #e08a10 !important;
+                border-color: #e08a10 !important;
+                border-width: 3px;
+            }
+
+            .seat--selected {
+                background-color: #FF4957 !important;
+            }
+
+            .seat--reserved {
+                background-color: gray !important;
+            }
+
+            .seat-picker {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                margin-bottom: 4px;
+                background: transparent;
+            }
+
+        
+            .seat__number {
+                font-style: bold !important;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .buy2Overview {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .BuyOverviewContainer {
+            row-gap: 1rem;
+            width: 80%;
+            background-color: #F4F4F4;
+            display: flex;
+            flex-direction: column;
+
+            &__Info {
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+
+                &__Poster {
+                    width: 10%;
+                    display: flex;
+                    flex-direction: row;
+
+                    & figure {
+                        width: 100%;
+
+                        & img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                &__Data {
+                    width: 90%;
+                    display: flex;
+                    margin-left: 1rem;
+                    flex-direction: column;
+                    row-gap: 0.5rem;
+
+                    &__Row {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    &__Row2 {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                       gap:1rem;
+                    }
+                }
+
+            }
+
+            &__Total {
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+    }
+
+
+}

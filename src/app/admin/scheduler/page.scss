@@ -1,0 +1,135 @@
+.SchedulerC {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    .SCFilters {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        &__Col1 {
+            width: 20%;
+        }
+
+        &__Col2 {
+            width: 60%;
+        }
+    }
+
+    .SCHeaderC {
+        display: flex;
+        flex-direction: col;
+        width: 100%;
+
+        .SCHeaderC2 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            background-color: black;
+            height: 38vh;
+
+
+            &__Col1 {
+                display: flex;
+                flex-direction: row;
+                width: 25%;
+
+                & figure {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    position: relative;
+
+                    & img {
+                        max-height: 110%;
+                        position: absolute;
+                        border-radius: 5px;
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            &__Col2 {
+                display: flex;
+                flex-direction: row;
+                width: 75%;
+
+
+                & figure {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: center;
+
+                    & iframe {
+
+                        width: 95%;
+                        max-height: max-content;
+                        border-radius: 5px;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .SchedulerC_Content {
+        margin-top: 6%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        &_Col1 {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+
+            .SCMovieInfoC {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                row-gap: 1rem;
+                & p{
+                    color: #8F95A0;
+                }
+                & h5{
+                    color:#3C4F6E;
+                }
+                &_Unit{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                   
+                    & span{
+                        color: #8F95A0;
+                    }
+                }
+            }
+
+        }
+
+        &_Col2 {
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            .SCheduler_C_Content_Row{
+                display: flex;
+               flex-direction: row;
+               width: 100%;
+               justify-content: space-between;
+            }
+            .SCheduler_C_Content_Row2{
+                display: flex;
+               flex-direction: row;
+               width: 100%;
+               justify-content: flex-start;
+            }
+        }
+
+    }
+}

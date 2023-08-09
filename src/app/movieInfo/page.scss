@@ -1,0 +1,100 @@
+.MovieOverviewContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+
+    .MovieOverviewContainer_left {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        .MovieheaderContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+
+            .Movieheader__image {
+                img {
+                    width: 100px;
+                }
+            }
+            .Movieheader__info{
+                margin-left: 1rem;
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+             
+            }
+        }
+        .Trailer{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            .ReactPlayer{
+                width: 100%;
+            }
+        }
+        .Overview{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;  
+        }
+
+    }
+
+    .MovieOverviewContainer_right {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        margin-left: 2rem;
+       
+
+        .RoomHours {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+            .RoomHours__OneRoomContainer {
+                display: flex;
+                flex-direction: column;
+
+                .RoomHours__Hours{
+                    input[type="radio"] {
+                        display: none;
+                    }
+    
+                    /* Estilos para el botón */
+                    label {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #FFFFFF;
+                        color: #323743;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        border-color: #323743;
+                        border-style: solid;
+                        border-width: 1px;
+                    }
+    
+                    /* Cambiar el color del botón cuando está seleccionado */
+                    input[type="radio"]:checked+label {
+                        background-color: #323743;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            Button{
+                width: fit-content;
+            }
+
+
+
+        }
+    }
+}

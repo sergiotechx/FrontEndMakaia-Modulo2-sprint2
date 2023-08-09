@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    background-color: #1A1B1E;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .NavBar--slogan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor:pointer;
+
+        p {
+            color: white;
+
+        }
+    }
+
+    .NavBar--operations {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .select-label {
+        color: white;
+    }
+   
+  
+}
+
+.MoviesCarousel {
+
+    background-color: #1A1B1E;
+
+}
+
+.onScreenContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+}

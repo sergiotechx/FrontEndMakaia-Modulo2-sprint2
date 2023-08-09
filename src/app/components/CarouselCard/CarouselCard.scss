@@ -1,0 +1,13 @@
+.CarouselCard {
+    display: flex;
+    flex-direction: column ;
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+    background-position: center ;
+    color:white;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    cursor:pointer;
+  
+}

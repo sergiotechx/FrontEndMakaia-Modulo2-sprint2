@@ -1,0 +1,144 @@
+.buy3Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+
+    .buy3CreditCard {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;      
+        padding-right: 3rem;
+        &__Container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem; 
+            & form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.5rem;
+                 
+
+                & label {
+                    color: #424856;
+                    font-weight: bold;
+                }
+                input {
+                    position: relative;
+                    background: transparent;
+                    border-style: none;
+                    background-color: #F3F4F6;
+                    border-radius: 5px; 
+                }
+
+
+                .CreditCard__Number {
+                    display: flex;
+                    flex-direction: column;
+                   
+                 
+                    &__Row {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        background-color: #F3F4F6;
+                        justify-content: space-between;
+                        border-radius: 5px;
+                        input {
+                            position: relative;
+                            background: transparent;
+                            border-style: none;
+                        }
+                    }
+                }
+                .CreditCard__Security{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    gap:2rem;
+                    &__Col{
+                        display: flex;
+                        flex-direction: column;
+                        width: 50%;
+                      
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .buy3Overview {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .BuyOverviewContainer {
+            row-gap: 1rem;
+            width: 80%;
+            background-color: #F4F4F4;
+            display: flex;
+            flex-direction: column;
+
+            &__Info {
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+
+                &__Poster {
+                    width: 10%;
+                    display: flex;
+                    flex-direction: row;
+
+                    & figure {
+                        width: 100%;
+
+                        & img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                &__Data {
+                    width: 90%;
+                    display: flex;
+                    margin-left: 1rem;
+                    flex-direction: column;
+                    row-gap: 0.5rem;
+
+                    &__Row {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    &__Row2 {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                }
+
+            }
+
+            &__Total {
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+    }
+}
